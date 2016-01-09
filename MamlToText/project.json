@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0-*",
+  "description": "ConsoleApp1 Console Application",
+  "authors": [ "johanste" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "System.Xml.XmlDocument": "4.0.1-beta-23516",
+    "System.Xml.XDocument": "4.0.11-beta-23516",
+    "System.Xml.XPath.XmlDocument": "4.0.1-beta-23516",
+    "Microsoft.Framework.CommandLineUtils.Sources": "1.0.0-beta5"
+  },
+
+  "commands": {
+    "MamlToText": "MamlToText"
+  },
+
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime.Loader": "4.0.0-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
