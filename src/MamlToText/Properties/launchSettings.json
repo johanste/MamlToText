@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp1": {
+      "commandName": "MamlToText",
+      "commandLineArgs": "--root=C:\\temp\\clu3\\win7-x64\\pkgs --out=\\temp\\maml\\help"
+    }
+  }
+}
